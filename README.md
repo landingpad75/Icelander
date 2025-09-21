@@ -13,7 +13,7 @@ Icelander is a simple, lightweight, and easy-to-use C++ library for UDP communic
 
 - Clone the repository:
   ```bash
-  git clone https://github.com/yourusername/icelander.git
+  git clone https://github.com/landingpad75/icelander.git
   cd icelander
   ```
 - Build the library:
@@ -30,11 +30,11 @@ Icelander is a simple, lightweight, and easy-to-use C++ library for UDP communic
 
 - Add the repository as a submodule:
   ```bash
-  git submodule add https://github.com/yourusername/icelander.git
+  git submodule add https://github.com/landingpad75/icelander.git
   ```
 
 - Add the repository as a dependency:
   ```cmake
   add_subdirectory(icelander)
-  target_link_libraries(your_target PRIVATE icelander)
+  target_link_libraries(your_target PRIVATE LandingPad::icelander)
   ```
