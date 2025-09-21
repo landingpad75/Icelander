@@ -1,0 +1,10 @@
+@PACKAGE_INIT@
+
+include(CMakeFindDependencyMacro)
+
+# Add any dependencies here if your library depends on other packages
+# find_dependency(SomePackage REQUIRED)
+
+include("${CMAKE_CURRENT_LIST_DIR}/IcelanderTargets.cmake")
+
+check_required_components(Icelander)

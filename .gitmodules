@@ -1,0 +1,3 @@
+[submodule "outside/enet"]
+	path = outside/enet
+	url = https://github.com/lsalzman/enet
